@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+    color: black;
+    border: none;
+}
+
+
+
+body{
+    background: linear-gradient(to right, #04b3bc, #7367f0) ;
+    background-size: cover;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+a{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #7367f0;
+}
+#login-conteudo{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center
+}
+#login-conteudo:hover{
+    box-shadow:         4px 5px 7px 0px rgba(50, 50, 50, 0.54);
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+} 
+label, input{
+    display: block;
+    
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+    color: #7367f0
+}
+input{
+    border-bottom: 3px solid #7367f0;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-bottom: 3px solid #04b3bc ;
+    box-shadow:         4px 5px 7px 0px rgba(50, 50, 50, 0.54);
+}
+
+#esqueceu{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    height:40px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow:         4px 5px 7px 0px rgba(50, 50, 50, 0.54);
+    color: white;
+    background-color: #7367f0;
+
+
+
+
+}
+input[type="submit"]:hover{
+    background-color: #04b3bc;
+    transition: .5s;
+}
+ h1{
+    color: #7367f0;
+ }
+ /* redes socias*/
+
+#redeSocial{
+    margin-bottom: 20px;
+
+}
+#redeSocial i {
+    height: 40px;
+    width: 40px;
+    background-color: #7367f0;
+    border-radius: 50%;
+    line-height: 40px;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.fa-facebooks{
+    background-color: #385998;
+}
+.fa-linkedin{
+    background-color: #007785;
+}
+#naotemconta p{
+    margin-bottom: 10px;
+}
+.galeria{
+    width: 75vw;
+    height: 60vmin;
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.galeria img{
+    height: 100%;
+    width: 60%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+
+}
+.galeria img:hover{
+    flex:1.7;
+    box-shadow:         4px 5px 7px 0px rgba(50, 50, 50, 0.54);
+}
